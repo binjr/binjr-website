@@ -16,7 +16,7 @@ You can also build or run the application from the source code.
 ### Prerequisites:
 
 * [Git](https://git-scm.com/open)
-* [OpenJDK 22 or later](https://adoptium.net/marketplace/)
+* [OpenJDK 25 or later](https://adoptium.net/marketplace/)
 
 !!! Info "Optional"
     If you want to build native installer packages, you'll also need the following platform specific prerequisites: 
@@ -31,7 +31,7 @@ You can also build or run the application from the source code.
         * Xcode command line tools.
     
     === "Windows (.msi)"
-        * [WiX 5.0.1 or later](https://github.com/wixtoolset/wix/releases/tag/v5.0.1).
+        * [WiX 6.0.0 or later](https://github.com/wixtoolset/wix/releases/tag/v6.0.2).
 
 
 ### Build
