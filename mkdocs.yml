@@ -51,17 +51,20 @@ theme:
     - navigation.footer
     - content.code.select
   palette:
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme)"
       scheme: default
       toggle:
-        icon: octicons/moon-24
+        icon: material/theme-light-dark
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: octicons/sun-24
         name: Switch to dark mode
-
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: octicons/sun-24
-        name: Switch to light mode
+        icon: octicons/moon-24
+        name: Switch to system preference
 
   highlightjs: true
   hljs_languages:
