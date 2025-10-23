@@ -1,4 +1,4 @@
-# License
+## License
 
 ***binjr*** is copyright 2016-2025 Frederic Thevenet
 
@@ -14,9 +14,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ---
+## Source Code
 
-All source code for the project is available in the following source code repository:
- [https://github.com/binjr/binjr](https://github.com/binjr/binjr)
+All source code for the project is mirrored in the following source code repositories:
+
+- [https://github.com/binjr/binjr](https://github.com/binjr/binjr)
+- [https://codeberg.org/binjr/binjr](https://codeberg.org/binjr/binjr)
+
+---
+## Third Party Software
 
 This software uses material from several third party open source software projects, listed below:
 
@@ -55,7 +61,7 @@ Licensed under the [Eclipse Distribution License v. 1.0](https://www.eclipse.org
 Licensed under the [Eclipse Distribution License v. 1.0](https://www.eclipse.org/org/documents/edl-v10.html).
 
 [**Fira Code Font**](https://github.com/tonsky/FiraCode)  
-Copyright (c) 2014, The Fira Code Project Authors 
+Copyright (c) 2014, The Fira Code Project Authors  
 This Font Software is licensed under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL)
 
 [**Font Awesome Free**](https://fontawesome.com)  
@@ -74,8 +80,12 @@ Copyright 2013 Jason Winnebeck
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 **Lato Fonts**  
-Copyright (c) 2010-2014 by tyPoland Lukasz Dziedzic (team@latofonts.com) with Reserved Font Name "Lato"
+Copyright (c) 2010-2014 by tyPoland Lukasz Dziedzic (team@latofonts.com) with Reserved Font Name "Lato"  
 This Font Software is licensed under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL)
+
+[**Microsoft GCToolkit**](https://github.com/microsoft/gctoolkit)  
+Copyright (c) Microsoft Corporation.  
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 [**RichTextFX**](https://github.com/FXMisc/RichTextFX)  
 Copyright (c) 2013-2017, Tomas Mikula and contributors  
@@ -87,7 +97,7 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 
 ---
 
-# Website
+## Website
 
 The content on this website is licensed under a 
 [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
