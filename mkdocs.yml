@@ -4,7 +4,7 @@ site_url: https://binjr.eu/
 copyright: This website is licensed under a Creative Commons Attribution 4.0 International License.
 repo_url: https://github.com/binjr/binjr/
 repo_name: "Go to repository"
-edit_uri: ""
+edit_uri: https://github.com/binjr/binjr-website/edit/main/docs/
 
 nav:
   - About:
@@ -50,6 +50,7 @@ theme:
     - navigation.top
     - navigation.footer
     - content.code.select
+    - content.action.edit
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
