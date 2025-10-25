@@ -1,6 +1,7 @@
 # Getting started
 
-There are several ways to get up and running with ***binjr***:
+There are two ways to get up and running with ***binjr***; download a ready-made application bundle for your OS and CPU achitecture, 
+or build it yourself from sources.
 
 ## Download an application bundle
 
@@ -123,46 +124,6 @@ You can also build or run the application from the source code.
         !!! Warning
             Please note that it is generally not possible to cross-build application bundles (e.g. build a bundle for
             macOS while running under Windows)  
-
-## From the command line
-
-You can also start ***binjr*** simply by running a single command line. Running binjr that way means that you don't
-need to worry about keeping your copy up to date: it will always start the latest version that was published over
-on Maven Central.
-
-!!! Info "Note"
-    In order to run binjr that way, you need to have Apache Maven installed on your machine and your JAVA_HOME
-    environment variable must point at a copy of a Java runtime version 21 or later.
-
-
-=== "Linux / macOS"
-
-    ``` sh
-    mvn exec:java@java -f <(curl https://binjr.eu/run-binjr.pom)
-    ```
-
-=== "Windows"
-
-    ``` bat
-    curl https://binjr.eu/run-binjr.pom > %temp%\run-binjr.pom & mvn exec:java@java -f %temp%\run-binjr.pom
-    ```
-
-You can also use the `binjr.version`property to start a specific version of binr:
-
-=== "Linux / macOS"
-
-    ``` sh
-    mvn exec:java@java -f <(curl https://binjr.eu/run-binjr.pom) -Dbinjr.version=2.17.1
-    ```
-
-=== "Windows"
-
-    ``` bat
-    curl https://binjr.eu/run-binjr.pom > %temp%\run-binjr.pom & mvn exec:java@java -f %temp%\run-binjr.pom  -Dbinjr.version=2.17.1
-    ```
-
-!!! Tip
-    Downloaded components are cached locally by Maven, so it doesn't need to download them again every time you run the application.
 
 ## Trying it out
 
