@@ -1,23 +1,35 @@
 # Change log
 
+## [binjr v3.26.0](https://github.com/binjr/binjr/releases/tag/v3.26.0)
+Released on Sat, 29 Nov 2025
+
+* _[New] [UI]_ Added new chart types as possible data representation for time series data:
+    * Impulse charts: vertical bars with a height proportional to value being plotted.  
+    * Vertical markers: to mark a series of instants on the timeline, as vertical lines that takes up the whole height of a chart.  
+    * Duration markers: to represent durations as vertical bands with a width proportional to the duration being plotter.  
+* _[New] [UI]_ Added an option to highlight the 'current' column the table view (which displays the Y values for each series on the selected chart at the time currently marked by the crosshair).
+* _[Fixed] [UI]_ NaN value show as phantom sample in top left corner of scatter charts.  
+* _[Fixed] [JVM GC Logs Adapter]_ Heap generation sizes are not extracted from G1 GC logs.  
+* _[Fixed] [JVM GC Logs Adapter]_ GC allocation rate calculation is incorrect.  
+* _[Fixed] [Core]_ Pressing `Reset Time Range` sometimes fails to correctly identify the lowest timestamp for the current series.  
+* _[Fixed] [CSV, Logs]_ Timestamp parsing in CSV and Log file adapters ignore timezone offsets.  
+
 ## [binjr v3.25.0](https://github.com/binjr/binjr/releases/tag/v3.25.0)
-Released on Wed, 29 Oct 2025
+Released on Wed, 29 October 2025
 
-* _[New] [Dependencies]_ Updated the embedded runtimes for Java and JavaFX to version 25.0.1.  
-* _[New] [Dependencies]_ Source and target compatibility level for binjr's artifacts have been updated to 25.  
-* _[New] [JVM GC Logs Adapter]_ Added support for ZGC garbage collector logs.  
-* _[New] [CSV Adpater]_ CSV parser now supports comments.  
-* _[New] [CSV Adapter]_ Only use localized number parser if mandated in a parsing profile, as the unlocalized parser is more lenient.  
-* _[New] [HTTP Adapters]_ User Agent string can now be overridden.  
-* _[New] [UI]_ Added a user preference to select the default timeline display mode on charts.  
-* _[Fixed] [Installers]_ MacOS PKG installer does not associate the ".bjr" extension to binjr.  
-* _[Fixed] [Core]_ Extra TemporalField endless loop when using adjustInto method.  
-* _[Fixed] [HTTP Adapters]_ SSL context builder ignores user certificate keystore when validating certification paths on Windows and MacOS.  
-* _[Fixed] [CSV Adapter]_ The wrong field is highlighted when the time pattern field is empty in CSV parsing profile dialog.  
-* _[Fixed] [CSV Adapter]_ The number parser only takes three decimal digits into account when parsing CSV data.  
-* _[Fixed] [CSV Adapter]_ The number parser does not recognize lower case 'e' as an exponent symbol when override locale for number parsing.  
-
-
+* _[New] [Dependencies]_ Updated the embedded runtimes for Java and JavaFX to version 25.0.1.
+* _[New] [Dependencies]_ Source and target compatibility level for binjr's artifacts have been updated to 25.
+* _[New] [JVM GC Logs Adapter]_ Added support for ZGC garbage collector logs.
+* _[New] [CSV Adpater]_ CSV parser now supports comments.
+* _[New] [CSV Adapter]_ Only use localized number parser if mandated in a parsing profile, as the unlocalized parser is more lenient.
+* _[New] [HTTP Adapters]_ User Agent string can now be overridden.
+* _[New] [UI]_ Added a user preference to select the default timeline display mode on charts.
+* _[Fixed] [Installers]_ MacOS PKG installer does not associate the ".bjr" extension to binjr.
+* _[Fixed] [Core]_ Extra TemporalField endless loop when using adjustInto method.
+* _[Fixed] [HTTP Adapters]_ SSL context builder ignores user certificate keystore when validating certification paths on Windows and MacOS.
+* _[Fixed] [CSV Adapter]_ The wrong field is highlighted when the time pattern field is empty in CSV parsing profile dialog.
+* _[Fixed] [CSV Adapter]_ The number parser only takes three decimal digits into account when parsing CSV data.
+* _[Fixed] [CSV Adapter]_ The number parser does not recognize lower case 'e' as an exponent symbol when override locale for number parsing.
 
 ## [binjr v3.24.1](https://github.com/binjr/binjr/releases/tag/v3.24.1)
 Released on Mon, 1 September 2025
