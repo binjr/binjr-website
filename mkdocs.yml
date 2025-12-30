@@ -6,6 +6,9 @@ repo_url: https://github.com/binjr/binjr/
 repo_name: "Go to repository"
 edit_uri: https://github.com/binjr/binjr-website/edit/main/docs/
 
+exclude_docs: |
+  !.well-known
+
 nav:
   - About:
     - about/what_is_binjr.md
