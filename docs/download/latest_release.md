@@ -34,7 +34,7 @@ binjr can be installed and updated using various package managers, depending on 
 
 | Version          | Operating System                        | Architecture | Package manager                                              |
 |------------------|-----------------------------------------|--------------|--------------------------------------------------------------|
-| binjr v3.27.0 | **Linux** ([supported distr](https://flathub.org/setup)) | ` x86_64`, `aarch64` | [Flathub](https://flathub.org/apps/eu.binjr.binjr) |
+| binjr v3.27.0 | **Linux** ([supported distributions](https://flathub.org/setup)) | ` x86_64`, `aarch64` | [Flathub](https://flathub.org/apps/eu.binjr.binjr) |
 | binjr v3.27.0 | **Debian** (10,11), **Ubuntu** (22.04+) | `x86_64` | [binjr APT Repository](https://repos.binjr.eu/apt)           |
 | binjr v3.27.0 | **RHEL** (8,9), **Fedora** (36+)        | `x86_64` | [binjr RPM Repository](https://repos.binjr.eu/rpm)           |
 | binjr v3.27.0 | **ArchLinux**                           | `x86_64` | [Arch User Repository](https://repos.binjr.eu/aur)           |
