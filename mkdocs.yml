@@ -127,6 +127,9 @@ extra:
     - icon: codeberg
       link: https://codeberg.org/binjr/binjr
       name: "binjr on Codeberg"
+    - icon: simple/flathub
+      link: https://flathub.org/apps/eu.binjr.binjr
+      name: "Get it on Flathub"
     - icon: fontawesome/brands/mastodon
       link: https://social.binjr.eu/@binjr
       name: "binjr on the Fediverse"
