@@ -1,14 +1,24 @@
 # Change log
 
+## [binjr v3.32.0](https://github.com/binjr/binjr/releases/tag/v3.32.0)
+Released on Fri, 20 Nov 2026
+
+* _[New] [CSV]_ Fetching data from a CSV file with large number of individual data points is now much faster and uses less memory.  
+* _[New] [CSV]_ Added a built-in profile for CSV values indexed by line numbers (i.e. without timestamps).  
+* _[New] [Dependencies]_ Updated the embedded Java runtime to 25.0.5.1 (November security update)
+* _[New] [UI]_ Panning or zooming on a chart using the mouse wheel now feels smoother and more responsive.  
+* _[New] [Core]_ Automatically infer parallelism based on available processors.
+* _[Fixed] [Core]_ Charts are not refreshed when adding series to an empty chart whose default time range is the same as the one currently selected.  
+* _[Fixed] [UI]_ Reordering charts or timeseries on a worksheet using drag and drop no longer works.  
+
 ## [binjr v3.31.0](https://github.com/binjr/binjr/releases/tag/v3.31.0)
-Released on Mon, 26 Oct 2026
+Released on Mon, 26 Oct 2026  
 
-
-* _[New] [UI]_ Linked worksheets that are not visible are no longer refreshed immediately when the timeline change, but only when they become visible again. This greatly speeds up rendering for the worksheets that *are* visible.  
-* _[New] [Flatpak]_ The file picker dialog box now uses the system Desktop Environment and honors theming.  
-* _[New] [Core]_ Changed default garbage collector tuning, in order to increase performances on large queries, at the expense of being less eager to release uncommitted memory to the OS.  
-* _[New] [Dependencies]_ Replaced GCToolkit with GCSee as the dependency used for parsing JVM GC logs.  
-* _[New] [Dependencies]_ Updated embedded runtime (Java 25.0.5 / JavaFX 27.0.1)  
+* _[New] [UI]_ Linked worksheets that are not visible are no longer refreshed immediately when the timeline change, but only when they become visible again. This greatly speeds up rendering for the worksheets that *are* visible.
+* _[New] [Flatpak]_ The file picker dialog box now uses the system Desktop Environment and honors theming.
+* _[New] [Core]_ Changed default garbage collector tuning, in order to increase performances on large queries, at the expense of being less eager to release uncommitted memory to the OS.
+* _[New] [Dependencies]_ Replaced GCToolkit with GCSee as the dependency used for parsing JVM GC logs.
+* _[New] [Dependencies]_ Updated embedded runtime (Java 25.0.5 / JavaFX 27.0.1)
 
 ## [binjr v3.30.1](https://github.com/binjr/binjr/releases/tag/v3.30.1)
 Released on Mon, 31 Aug 2026
